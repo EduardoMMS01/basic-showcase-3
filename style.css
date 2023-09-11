@@ -1,3 +1,8 @@
+html {
+    height: 100vh;
+    position: relative;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -57,4 +62,92 @@ body {
     color: #7D7987
 }
 
+.container .main-content-container {
+    height: 433px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.container .main-content-container .left {
+    height: 100%;
+    flex-basis: 45%;
+}
+
+.container .main-content-container .left h1 {
+    margin-bottom: 40px;
+    font-family: 'Mulish', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 56px;
+}
+
+.container .main-content-container .left h1 span {
+    color: #89C5CC;
+    font-weight: 700;
+}
+
+.container .main-content-container .left p {
+    color: #7D7987;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.container .main-content-container .left p strong {
+    font-weight: 700;
+}
+
+.container .main-content-container .left button {
+    display: inline-flex;
+    height: 56px;
+    padding: 14px 32px 15px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background-color: #69B99D;
+    border: none;
+    border-radius: 4px;
+    color: #F9F9F9;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+}
+
+.container .main-content-container .left button img {
+    
+}
+
+.container .main-content-container .right {
+    flex-basis: 45%;
+    display: flex;
+    justify-content: end;
+    padding-bottom: 50px;
+}
+
+.container .main-content-container .right img {
+    max-width: 417px;
+}
+
+footer {
+    margin-top: 200px;
+    text-align: center;
+}
+
+footer p {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.balls {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
