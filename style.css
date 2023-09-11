@@ -119,9 +119,9 @@ body {
     cursor: pointer;
 }
 
-.container .main-content-container .left button img {
+/* .container .main-content-container .left button img {
     
-}
+} */
 
 .container .main-content-container .right {
     flex-basis: 45%;
